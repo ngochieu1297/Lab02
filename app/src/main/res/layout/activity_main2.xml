@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.lab02.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="What else in your Coffee ?"
+        android:background="@color/colorAccent"/>
+
+    <RadioButton
+        android:id="@+id/rbCream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cream"
+        android:textSize="20sp"/>
+
+    <RadioButton
+        android:id="@+id/rbSugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sugar"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:text="Pay" />
+</LinearLayout>
